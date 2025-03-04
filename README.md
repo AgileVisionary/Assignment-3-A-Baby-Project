@@ -9,6 +9,7 @@ The Genshin Impact Character Data dataset on Kaggle provides detailed informatio
 
 Furthermore, this "Assignment 6 branch" is the final branch closing this project. 
 Here are the following decisions that had been made: 
+
 Methodology
 Data Cleaning
 The data cleaning process involved several crucial steps:
@@ -42,9 +43,15 @@ Performance Metrics: Correlations between character attributes (e.g., ATK, HP) a
 Patterns and Trends: Identifying common traits among top-performing characters.
 
 Visuals
-Figure 1: Distribution of character elements
+Pie Chart: The distribution of characters by weapon type showed the dominance of swords and the relative balance among other weapon types. Figure 1: Distribution of characters by weapon type
 
-Figure 2: Correlation between attack power (ATK) and overall performance
+Bar Plot: The distribution of characters by vision type highlighted the popularity of certain elements like Cryo, Hydro, and Electro, while Geo and Dendro had fewer characters, reflecting their availability and usage in the game. Figure 2: Distribution of characters by vision type
+
+Boxplot: The distribution of ATK values by vision type at Level 90 revealed variability in attack stats across different elements, with some visions like Pyro having a wider range of ATK values. Figure 3: ATK values by vision type at Level 90
+
+Scatter Plot: The relationship between HP and ATK at Level 90 for different characters and vision types provided insights into the strength and characteristics of characters based on their elemental vision. Figure 4: Relationship between HP and ATK at Level 90 by vision type
+
+Character Model Distribution: The bar chart showing the distribution of characters by model type indicated a preference for Medium Female and Medium Male models in character design. Figure 5: Distribution of characters by model type
 
 Discussion
 Challenges
@@ -67,9 +74,32 @@ Future Work
 Future research could explore additional character attributes, analyze the impact of new game updates, or predict future character performance based on historical data.
 
 Reflection
-Learning
-Through this project, I acquired new knowledge and skills in data analysis, GitHub, and Jupyter Notebook. The process of cleaning and analyzing the dataset was challenging yet rewarding, and I am proud of the effort and results achieved.
+Are you proud of your project? Why or why not?
+I am proud of this project based on the new knowledge I have acquired and the time and details it took to apply what I have learned. I am really proud because I have put effort into it, and learning these new concepts using GitHub and Jupyter Notebook was really fun. The project allowed me to delve into data analysis and visualization, enhancing my skills and understanding of these tools.
 
-Application
-This project has enhanced my understanding of data analysis and its practical applications, providing a foundation for future projects and professional growth. The skills gained are transferable to many other areas, including business analytics, sports management, and psychology.
+What did you learn about the topic you chose?
+The dataset I chose to work with is "Genshin Impact Character Data" by Sophia Healy via Kaggle. It includes detailed information about all the current playable characters in the game. I learned about the intricacies of character attributes and how they impact gameplay, as well as the importance of data consistency and accuracy in analysis.
 
+What did you learn about working with data in Git?
+Working with data in Git taught me the importance of version control and collaboration. Git allows for tracking changes, managing different versions of the project, and collaborating with others efficiently. It also helps in maintaining a history of the project, making it easier to revert to previous versions if needed. Using GitHub, I was able to share my work, receive feedback, and collaborate with others.
+
+Did you choose to include your work in Assignment 3? Why or why not?
+Yes, I chose to include my work in Assignment 3. The dataset and the analysis I conducted provided valuable insights and demonstrated my ability to apply data analysis techniques to a real-world dataset. Including this work in Assignment 3 showcases my skills and the effort I put into understanding and analyzing the data.
+
+What were your main challenges?
+Some of the main challenges were working with the Jupyter coding because there were times when the code did not execute as expected, requiring debugging and troubleshooting. Another challenge was dealing with missing or inconsistent data, which required careful cleaning and preprocessing to ensure accurate analysis. Additionally, the dataset's descriptive nature limited certain analyses and might be less appealing to others.
+
+Insights
+Through this project, I gained several key insights:
+
+Data Quality: Ensuring data accuracy and consistency is crucial for reliable analysis and meaningful results.
+
+Character Analysis: Understanding how different elements, weapon types, and stats influence gameplay.
+
+Visualization: Effective data visualization helps uncover patterns and trends.
+
+Skill Development: Enhanced my technical skills in Git, coding, and data analysis.
+
+Collaboration: Highlighted the value of collaboration in improving the quality of work.
+
+Real-World Applications: Demonstrated the practical value of data analysis in various fields.
